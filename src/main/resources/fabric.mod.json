@@ -19,7 +19,13 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.fabricmc.example.ExampleMod",
+      "net.fabricmc.example.RubyItemMod",
+      "net.fabricmc.example.Entity.ElephantEntityInitializer"
+
+    ],
+    "client": [
+      "net.fabricmc.example.Entity.ElephantEntityClient"
     ]
   },
   "mixins": [
